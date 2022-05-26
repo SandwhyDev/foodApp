@@ -1,9 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  overflow-x: hidden;
 }
 
 a {
@@ -13,4 +21,229 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.swiper-container {
+  margin-right: 130px;
+  background-color: #ffae00;
+}
+
+@media screen and (max-width: 767px) {
+  /* COMPONENTS  */
+  .CardMenu {
+    width: 200px;
+    height: 100%;
+  }
+  .mySwiper {
+    /* background-color: #ffae00; */
+    height: 100%;
+  }
+  /* COMPONENTS END */
+  /* PAGE 1  */
+  .navbar {
+    /* background-color: red; */
+    width: 100%;
+    height: 70px;
+    padding: 30px;
+  }
+  .swiper1 {
+    /* background-color: #ffae00; */
+  }
+  .swipeMenu {
+    /* background-color: aquamarine; */
+    /* padding-left: 20px; */
+  }
+  .navbarItem {
+    display: none;
+  }
+  .logoNav {
+    object-fit: contain;
+    width: 100px;
+  }
+  .navbarSecond {
+    padding-top: 18px;
+
+    display: flex;
+    color: #ffae00;
+  }
+  .containerJudul {
+    gap: 20px;
+  }
+  .page1 {
+    /* background-color: red; */
+    padding: 30px;
+    flex-direction: column;
+    height: auto;
+  }
+  .judul {
+    /* background-color: #ffae00; */
+    width: 300px;
+    font-size: 45px;
+  }
+  .break1 {
+    display: none;
+  }
+  .cewek1 {
+    /* display: none; */
+    /* background-color: red; */
+    width: 300px;
+    height: 100px;
+    margin-left: 50px;
+  }
+  .loremCewek {
+    /* background-color: #ffae00; */
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  .lorem1 {
+    width: 100px;
+    display: none;
+  }
+  .btn1 {
+    display: none;
+
+    width: 300px;
+  }
+  .btn2 {
+    display: flex;
+    width: 300px;
+  }
+  .lorem2 {
+    display: flex;
+    width: 300px;
+  }
+
+  .btnItems {
+    align-items: center;
+    font-size: 15px;
+    gap: 8px;
+    padding: 0px 10px;
+    /* background-color: #ffae00; */
+  }
+
+  /* PAGE 1 END  */
+
+  /* PAGE 2  */
+  .page2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+  }
+  .cardPlus {
+    width: 420px;
+    height: 150px;
+    padding: 30px;
+    font-size: 1px;
+    padding-left: 100px;
+  }
+  .textMobile {
+    /* background-color: #ffae00; */
+    font-size: 1px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .tCardPlus {
+    font-size: 28px;
+  }
+  /* PAGE 2 END  */
+
+  /* PAGE 3  */
+  .page3 {
+    padding: 40px 30px;
+    background-color: #ffae00;
+    height: auto;
+  }
+  .lorem {
+    font-size: 28px;
+  }
+  .cardBest {
+    flex-direction: column;
+    padding-right: 5px;
+  }
+  /* PAGE 3 END  */
+
+  /* page 4  */
+  .page4 {
+    height: auto;
+    padding: 30px 0px;
+    font-size: 20px;
+    gap: 20px;
+  }
+  .text4 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .break2 {
+    display: flex;
+  }
+  .page41 {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+  }
+  .cardValue {
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-left: 25px;
+    /* background-color: #ffae00; */
+  }
+  .cewek4 {
+    width: 70%;
+  }
+  .cardVa4 {
+    width: 270px;
+    height: 200px;
+    /* background-color: #ffae00; */
+  }
+  /* page 4 end  */
+
+  /* PAGE 5  */
+  .page5 {
+    padding: 50px 0px;
+    height: 100vh;
+  }
+  .page51 {
+    /* gap: 100px; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #ffae00; */
+    padding: 0px;
+  }
+  .page52 {
+    padding: 0px;
+  }
+
+  .swiper1 {
+    margin: 0px;
+  }
+
+  .container_judul5 {
+    gap: 30px;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    /* background-color: #ffae00; */
+
+    align-items: center;
+  }
+  .lorem5 {
+    font-size: 19px;
+  }
+  .judul5 {
+    width: 300px;
+    text-align: center;
+  }
+  /* PAGE 5 end */
 }
