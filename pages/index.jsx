@@ -51,7 +51,7 @@ export default function Home() {
               tellus phasellus pellentesque.
             </p> */}
 
-            <div className="btn2 flex gap-4">
+            <div className="btn2 hidden gap-4">
               <Button />
 
               <ButtonVideo />
