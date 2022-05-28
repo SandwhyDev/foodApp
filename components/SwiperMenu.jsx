@@ -30,20 +30,41 @@ const SwiperMenu = () => {
           <CardMenu />
         </SwiperSlide>
         <SwiperSlide className="swiper1">
-          <CardMenu />
+          <CardMenu
+            img="https://images.pexels.com/photos/2619970/pexels-photo-2619970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            title="pizza"
+            price="Rp. 100k"
+          />
         </SwiperSlide>
         <SwiperSlide className="swiper1">
-          <CardMenu />
+          <CardMenu
+            img="https://images.pexels.com/photos/1438672/pexels-photo-1438672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            title="pasta"
+            price="Rp. 200k"
+          />
         </SwiperSlide>
         <SwiperSlide className="swiper1">
-          <CardMenu />
+          <CardMenu
+            img="https://images.pexels.com/photos/3186654/pexels-photo-3186654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            title="steak"
+            price="Rp. 300k"
+          />
         </SwiperSlide>
 
         <SwiperSlide className="swiper1">
-          <CardMenu />
+          <CardMenu
+            img="https://images.pexels.com/photos/9980875/pexels-photo-9980875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            title="fried rice"
+            price="Rp. 120k"
+          />
         </SwiperSlide>
+
         <SwiperSlide className="swiper2">
-          <CardMenu />
+          <CardMenu
+            img="https://images.pexels.com/photos/9609853/pexels-photo-9609853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            title="fried yellow"
+            price="Rp. 130k"
+          />
         </SwiperSlide>
       </Swiper>
     </div>

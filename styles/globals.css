@@ -41,7 +41,7 @@ a {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #53067a;
-  height: 200px;
+  height: auto;
   border-radius: 10px;
 }
 
