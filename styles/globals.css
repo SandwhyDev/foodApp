@@ -27,6 +27,30 @@ a {
   background-color: #ffae00;
 }
 
+/* SCROLL HANDLER  */
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #8a1ac2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #53067a;
+  height: 200px;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* SCROLL HANDLER END  */
+
 @media screen and (max-width: 767px) {
   /* COMPONENTS  */
 
