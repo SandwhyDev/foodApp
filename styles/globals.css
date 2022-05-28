@@ -29,16 +29,37 @@ a {
 
 @media screen and (max-width: 767px) {
   /* COMPONENTS  */
-  .CardMenu {
-    width: 200px;
-    height: 100%;
-  }
+
   .mySwiper {
     /* background-color: #ffae00; */
     height: 100%;
   }
+  .swiper1 {
+    padding-left: 20px;
+    /* background-color: #ffae00; */
+  }
+  .swiper2 {
+    padding-left: 20px;
+    padding-right: 150px;
+  }
+  .contMenu {
+    padding: 10px;
+    padding-top: 0;
+    text-align: center;
+  }
+  .CardMenu {
+    width: 200px;
+    height: 100%;
+  }
+  .nameMenu {
+    font-size: 16px;
+    /* background-color: #ffae00; */
+    width: 100%;
+  }
   /* COMPONENTS END */
+
   /* PAGE 1  */
+
   .navbar {
     /* background-color: red; */
     width: 100%;

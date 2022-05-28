@@ -29,20 +29,20 @@ const SwiperMenu = () => {
         <SwiperSlide className="swiper1 ml-16">
           <CardMenu />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiper1">
           <CardMenu />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiper1">
           <CardMenu />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiper1">
           <CardMenu />
         </SwiperSlide>
 
-        <SwiperSlide>
+        <SwiperSlide className="swiper1">
           <CardMenu />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiper2">
           <CardMenu />
         </SwiperSlide>
       </Swiper>

@@ -9,14 +9,14 @@ const CardMenu = () => {
         alt="food1"
         className="w-full h-[60%] object-cover rounded-t-[25px] "
       />
-      <div className="w-full h-[40%] bg-gradient-to-br from-[#FFC703] to-[#FFE27C] rounded-b-[25px] flex flex-col items-center justify-center px-12 gap-2">
-        <h1 className="capitalize text-white text-2xl font-medium font-poppins">
+      <div className="contMenu w-full h-[40%] bg-gradient-to-br from-[#FFC703] to-[#FFE27C] rounded-b-[25px] flex flex-col items-center justify-center px-12 gap-2">
+        <h1 className="nameMenu capitalize text-white text-2xl font-medium font-poppins">
           American Burger
         </h1>
-        <p className="capitalize text-white text-xl font-medium font-poppins -mt-2">
+        <p className="nameMenu capitalize text-white text-xl font-medium font-poppins -mt-2">
           Rp. 250k
         </p>
-        <button className="p-2 w-[120px] bg-gradient-to-l from-[#53067A] to-[#A177B6] rounded-full flex items-center justify-center gap-2">
+        <button className=" p-2 w-[120px] bg-gradient-to-l from-[#53067A] to-[#A177B6] rounded-full flex items-center justify-center gap-2">
           <p className="capitalize text-white text-[14px] font-bold font-poppins">
             Try Now
           </p>
