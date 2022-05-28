@@ -144,19 +144,19 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-screen h-screen bg-gradient-to-tl to-[#53067A] from-[#A177B6] px-16 py-20 flex flex-col items-center gap-3 ">
-        <h1 className="text-yellow-400 font-raleway text-[36px] font-bold">
+      <div className="page6 w-screen h-screen bg-gradient-to-tl to-[#53067A] from-[#A177B6] px-16 py-20 flex flex-col items-center gap-3 ">
+        <h1 className="judul6 text-yellow-400 font-raleway text-[36px] font-bold">
           Testimonials About Us
         </h1>
         <hr className="w-[50px] border-[5px] rounded-full  border-yellow-300    " />
-        <p className="text-[24px] font-raleway text-center text-white font-light ">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />{" "}
-          Porttitor scelerisque nisl .
+        <p className="lorem6 text-[24px] font-raleway text-center text-white font-light  ">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+          <br className="break1" /> Porttitor scelerisque nisl .
         </p>
 
         <CardTesti />
       </div>
-      <div className="w-screen h-[550px] bg-gradient-to-bl to-[#53067A] from-[#A177B6] px-16 py-16 flex flex-col items-center justify-center">
+      <div className="page7 w-screen h-[550px] bg-gradient-to-bl to-[#53067A] from-[#A177B6] px-16 py-16 flex flex-col items-center justify-center">
         <CardEmail />
       </div>
 
